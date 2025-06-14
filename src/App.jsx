@@ -12,6 +12,8 @@ import { InteriorDesignProvider } from './Components/Context/InteriorDesignConte
 import Footer from './Components/Footer/Footer';
 import Services from './Components/Services/Services';
 import Contact from './Components/Contact/Contact';
+import Admin from './Components/Admin/Admin';
+import AdminDashboard from './Components/Admin/AdminDashboard';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/admin' element={<Admin/>}/>
+        <Route path='/admin-dashboard' element={<AdminDashboard/>}/>
         {/* <Route path='/' element={<Header/>}/> */}
 
       </Routes>
